@@ -1,0 +1,9 @@
+num = int(input('Informe o numero: '))
+M = num // 1000
+C = (num - 1000 * M) // 100
+D = (num - (1000 * M + 100 * C)) // 10
+U = (num - (1000 * M + 100 * C + 10 * D)) // 1
+print('Unidade = {}'.format(U))
+print('Dezena = {}'.format(D))
+print('Centena = {}'.format(C))
+print('Melhar = {}'.format(M))
